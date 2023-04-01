@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_cap_chatgpt_product_category_inherit" model="ir.ui.view">
+        <field name="name">view.cap.chatgpt.product.category.inherit</field>
+        <field name="model">product.category</field>
+        <field name="inherit_id" ref="product.product_category_form_view"/>
+        <field name="arch" type="xml">
+                <xpath expr="//field[@name='parent_id']" position="after">
+                    <field name="chatgpt_sesion_id"/>
+                </xpath>      
+        </field>
+    </record>   
+</odoo>

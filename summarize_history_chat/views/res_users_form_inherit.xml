@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_cap_base_view_users_form" model="ir.ui.view">
+        <field name="name">view.cap.base.view.users.form.inherit</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form[1]/sheet[1]/notebook[1]/page[@name='access_rights']/group[4]/group[3]/newline[1]" position="after">
+                <field name="chatgpt_sesion_id"/>
+            </xpath>     
+        </field>
+    </record>   
+</odoo>

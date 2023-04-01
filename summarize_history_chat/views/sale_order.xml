@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="cap_sale_order_form_inherit" model="ir.ui.view">
+            <field name="name">cap.sale.order.form.inherit</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form[1]/sheet[1]/notebook[1]" position="inside">
+                    <page string="AI assisted Summary" >
+                        <group>
+                            <field name="ai_assisted_summary"/>
+
+                            
+                        </group>
+                        <group>
+                            <button name="summarize_chat_history" string="Generate Summary" type="object"/>
+                            <button name="post_summay_in_chatter" string="Post Summary in chatter" type="object"/>
+                        </group>
+                    </page>
+                </xpath>
+              
+            </field>
+        </record>
+
+
+        
+
+    </data>
+</odoo>

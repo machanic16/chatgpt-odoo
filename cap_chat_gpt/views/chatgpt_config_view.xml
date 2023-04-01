@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+ <record id="action_chatgpt_config" model="ir.actions.act_window">
+        <field name="name">ChatGPT Session</field>
+        <field name="res_model">chatgpt.config</field>
+        <!-- <field name="view_mode">tree,form</field> -->
+        <!-- <field name="binding_model_id" ref="base.model_res_users"/> -->
+        <field name="binding_view_types">form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smilling_face">
+                Create a new ChatGPT Session
+            </p>
+        </field>
+    </record>
+
+   
+
+</odoo>
