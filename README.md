@@ -1,13 +1,13 @@
-#Odoo-ChatGPT Integration
+# Odoo-ChatGPT Integration
 
 This repository contains two modules that integrate Odoo ERP System with OpenAI's ChatGPT using the OpenAI API. The purpose of these modules is to enhance the Odoo user experience by automating specific tasks such as generating product descriptions and summarizing customer communication threads. These modules leverage the power of OpenAI's ChatGPT language model to ensure the output is coherent, meaningful, and relevant.
 
-##Modules
+## Modules
 
     1.Product Description Generator (cap_chat_gpt)
     2.Customer Communication Summary (summarize_history_chat)
 
-Installation
+## Installation
 
 Before installing the modules, ensure that you have Odoo ERP System installed on your machine or server. You will also need to sign up for an OpenAI API key.
 
@@ -29,8 +29,8 @@ Before installing the modules, ensure that you have Odoo ERP System installed on
 
     4.In the settings of each module, input your OpenAI API key to enable the integration.
 
-##Usage
-###Product Description Generator
+## Usage
+### Product Description Generator
 
 This module generates product descriptions automatically for selected products in the Odoo ERP System using OpenAI's ChatGPT.
 
@@ -44,7 +44,7 @@ This module generates product descriptions automatically for selected products i
 
     5. The descriptions will be generated and automatically added to the selected product.
 
-###Customer Communication Summary
+### Customer Communication Summary
 
 This module generates a summary of a customer communication thread in one or two paragraphs, providing a quick overview of the conversation.
 
@@ -56,7 +56,7 @@ This module generates a summary of a customer communication thread in one or two
 
     4. The summary will be generated and added to the communication thread as a new message.
 
-Contributing
+## Contributing
 
 Feel free to fork the repository and submit pull requests for any enhancements or bug fixes. For major changes, please open an issue first to discuss the proposed change.
 License
